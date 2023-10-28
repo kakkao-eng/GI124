@@ -36,7 +36,7 @@ move_x = move_x*move_speed;
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "Obj_Ground"
 /// @DnDSaveInfo : "object" "Obj_Ground"
-var l47B84B75_0 = instance_place(x + 0, y + 2, [Obj_Ground]);
+var l47B84B75_0 = instance_place(x + 0, y + 2, Obj_Ground);
 if ((l47B84B75_0 > 0))
 {
 	/// @DnDAction : YoYo Games.Common.Variable
@@ -56,7 +56,7 @@ if ((l47B84B75_0 > 0))
 	/// @DnDArgument : "object" "Obj_Ground"
 	/// @DnDArgument : "not" "1"
 	/// @DnDSaveInfo : "object" "Obj_Ground"
-	var l5B8663E9_0 = instance_place(x + 0, y + 2, [Obj_Ground]);
+	var l5B8663E9_0 = instance_place(x + 0, y + 2, Obj_Ground);
 	if (!(l5B8663E9_0 > 0))
 	{
 		/// @DnDAction : YoYo Games.Collisions.If_Object_At
@@ -69,7 +69,7 @@ if ((l47B84B75_0 > 0))
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "object" "Obj_Ground"
 		/// @DnDSaveInfo : "object" "Obj_Ground"
-		var l6B0F0A16_0 = instance_place(x + move_x, y + 10, [Obj_Ground]);
+		var l6B0F0A16_0 = instance_place(x + move_x, y + 10, Obj_Ground);
 		if ((l6B0F0A16_0 > 0))
 		{
 			/// @DnDAction : YoYo Games.Common.Variable
@@ -134,6 +134,8 @@ else
 /// @DnDHash : 5EA48E9B
 /// @DnDArgument : "xvel" "move_x"
 /// @DnDArgument : "yvel" "move_y"
+/// @DnDArgument : "maxxmove" "-1"
+/// @DnDArgument : "maxymove" "-1"
 /// @DnDArgument : "object" "Obj_Ground"
 /// @DnDSaveInfo : "object" "Obj_Ground"
 move_and_collide(move_x, move_y, Obj_Ground,4,0,0,-1,-1);
