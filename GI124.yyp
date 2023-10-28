@@ -31,7 +31,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"Obj_game","path":"objects/Obj_game/Obj_game.yy",},},
@@ -80,6 +80,7 @@
     {"roomId":{"name":"RM_Game","path":"rooms/RM_Game/RM_Game.yy",},},
     {"roomId":{"name":"RM_Win","path":"rooms/RM_Win/RM_Win.yy",},},
   ],
+  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],
